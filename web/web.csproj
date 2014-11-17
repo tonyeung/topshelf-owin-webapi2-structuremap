@@ -82,6 +82,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\ConfigureOwin.cs" />
+    <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="DependencyInjection\StructureMapHttpControllerActivator.cs" />
     <Compile Include="DependencyInjection\IoC.cs" />
     <Compile Include="Program.cs" />
