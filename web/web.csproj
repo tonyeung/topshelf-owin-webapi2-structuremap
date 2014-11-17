@@ -81,7 +81,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\ISample.cs" />
     <Compile Include="App_Start\ConfigureOwin.cs" />
+    <Compile Include="Concrete\Sample.cs" />
+    <Compile Include="Controllers\TestController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="DependencyInjection\StructureMapHttpControllerActivator.cs" />
     <Compile Include="DependencyInjection\IoC.cs" />
